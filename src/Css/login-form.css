@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-size: 13px;
+
+  }
+.login-form-container-fluid{
+margin: auto;
+width: 95%;
+display: block;
+}
+.login-form-container-fluid p:nth-child(1){
+font-size: 18px;
+color: rgb(0,20,100);
+text-align: center;
+font-weight: bold;
+}
+.login-form-container-fluid label{
+margin: auto;
+display: block;
+text-align: center;
+color: rgb(0,20,100);
+}
+.login-form-container-fluid input[type=email],.login-form-container-fluid input[type=text],
+.login-form-container-fluid input[type=password]{
+padding: 8px 8px;
+outline: 0;
+border: 0px ;
+border-bottom: 3px solid rgb(0,20,100);
+margin: auto;
+display: block;
+width: 80%;
+font-size: 18px;
+border-radius: 2rem;
+}
+.login-form-container-fluid input[type=submit]{
+padding: 8px 8px;
+font-size: 15px;
+color: white;
+background-color: rgb(0,20,100);
+border-radius: 2rem;
+margin: auto;
+display: block;
+width: 60%;
+cursor: pointer;
+}
+.login-form-container-fluid button{
+padding: 8px 8px;
+font-size: 15px;
+color: rgb(0,20,100);
+background-color: white;
+border-radius: 2rem;
+margin: auto;
+display: block;
+width: 60%;
+margin-top: 10px;
+cursor: pointer;
+}
+@media screen and (min-width: 600px){
+.login-form-container-fluid input[type=email],.login-form-container-fluid input[type=text],
+.login-form-container-fluid input[type=password]{
+  width: 40%;
+  font-size: 13px;
+}
+.login-form-container-fluid input[type=submit]{
+  width: 30%;
+}
+.login-form-container-fluid button{
+  width: 30%;
+}
+}
+.create-account-form-overlay{
+left: 0;
+bottom: 0;
+right: 0;
+top: 0;
+overflow-y: scroll;
+transition: 0.1s;
+position: fixed;
+background-color: #f1f1f1;
+text-align: center;
+width: 100%;
+}
+.create-account-form-overlay p:nth-child(1){
+color: rgb(0,20,100);
+text-align: center;
+cursor: pointer;
+}
+.create-account-form-overlay p:nth-child(2){
+font-size: 18px;
+color: rgb(0,20,100);
+text-align: center;
+}
+.create-account-form-overlay input[type=email], .create-account-form-overlay input[type=text],
+.create-account-form-overlay input[type=password]{
+padding: 8px 8px;
+outline: 0;
+border: 0px ;
+border-bottom: 3px solid rgb(0,20,100);
+margin: auto;
+display: block;
+width: 80%;
+font-size: 18px;
+border-radius: 2rem;
+}
+.create-account-form-overlay input[type=submit]{
+padding: 8px 8px;
+font-size: 15px;
+color: white;
+background-color: rgb(0,20,100);
+border-radius: 2rem;
+margin: auto;
+display: block;
+width: 60%;
+cursor: pointer;
+}
+.create-account-form-overlay button{
+padding: 8px 8px;
+font-size: 15px;
+color: rgb(0,20,100);
+background-color: white;
+border-radius: 2rem;
+margin: auto;
+display: block;
+width: 60%;
+margin-top: 10px;
+cursor: pointer;
+}
+@media screen and (min-width: 600px){
+.create-account-form-overlay input[type=email],.create-account-form-overlay input[type=text],
+.create-account-form-overlay input[type=password]{
+  width: 40%;
+  font-size: 13px;
+}
+.create-account-form-overlay input[type=submit]{
+  width: 30%;
+}
+.create-account-form-overlay button{
+  width: 30%;
+}
+}

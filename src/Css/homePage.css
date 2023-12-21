@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-size: 12px;
+    
+  }
+.header-container-fluid{
+background-color: rgb(0,22,120);
+padding: 2px 2px;
+color: white;
+box-shadow: 0px 0px 16px 0px rgb(0,20,100);
+}
+.logo{
+font-size: 18px;
+}
+.sub-header-menu{
+
+}
+.welcome-fuild{
+
+font-size: 15px;
+margin-left: 5px;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+}
+.active-class-form{
+display: flex;
+margin-left: 10px;
+
+margin-bottom: -15px;
+}
+.active-class-form button{
+padding: 10px 10px;
+background: white;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+margin-left: -5px;
+cursor: pointer;
+border: none;
+}
+.active-class-form button i{
+color: mediumseagreen;
+position: fixed;
+}
+.active-class-form .more-active{
+font-size: 15px;
+cursor: pointer;
+}
+.option-container-fluid{
+color: white;
+}
+#openOptionBtn{
+cursor: pointer;
+color: white;
+margin: 10px;
+font-size: 16px;
+margin-bottom: -15px;
+}
+.option-menu{
+display: ;
+background-color: white;
+width: 50%;
+text-align: center;
+padding: 2px 2px;
+color: black;
+margin-bottom: -50px;
+position: fixed;
+box-shadow: 0px 0px 16px 0px rgb(0,22,120);
+z-index: 1;  
+display: none;
+}
+.option-menu button{
+cursor: pointer;
+background-color: white;
+color: black;
+border: none;
+}
+.sub-header-class-group{
+padding: 2px 2px;
+/*box-shadow: 0px 0px 16px 0px rgb(0,20,100);*/
+background-color: white;
+bottom: 0;
+position: fixed;
+left: 0;
+right: 0;
+top: 60%;
+}
+.sub-header-class-group  button{
+padding: 10px 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+cursor: pointer;
+color: black;
+margin: auto;
+display: block;
+background-color: rgb(0,22,120);
+color: white;
+border: none;
+border-radius: 2rem;
+width: 80%;
+}
+@media screen and (min-width: 600px){
+.sub-header-class-group  button{
+width: 40%;
+}
+}
